@@ -1,0 +1,33 @@
+{
+  "name": "onepage_doorlock_tzk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "@left4code/tw-starter": "1.1.0",
+    "@popperjs/core": "^2.10.2",
+    "cash-dom": "^8.1.0",
+    "feather-icons": "^4.28.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "tippy.js": "^6.3.4",
+    "velocity-animate": "^1.5.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.37",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0"
+  }
+}
