@@ -199,9 +199,13 @@
                                                 <div class="mb-3 grid grid-cols-12 sm:gap-10 intro-y">
                                                     <div class="col-span-12 xl:col-span-12 bg-theme-52 mx-2 pb-4" style="border-radius: 20px;">
                                                         <div class="intro-y flex items-center bg-theme-50 justify-center" style="border-radius: 20px 20px 0px 0px;">
-                                                            <div class="btn border-none my-3 text-white dark:text-gray-300 bg-theme-49 p-2 rounded-full">
-                                                                <i class="las la-calendar z-10 text-xl"></i>
-                                                                2021-12-15 00:00:00
+                                                            <div class="relative inline-flex">
+                                                                <select class="h-10 pl-5 pr-10 hover:border-theme-46 focus:outline-none appearance-none border-none my-3 text-white dark:text-gray-300 bg-theme-49 p-2 rounded-full stroke-current form-select form-select-light sm:w-auto">
+                                                                    <option value="all">All Departement</option>
+                                                                    <option value="it">IT</option>
+                                                                    <option value="produksi">Produksi</option>
+                                                                    <option value="qc">Quality Control</option>
+                                                                </select>
                                                             </div>
                                                         </div>
                                                         <div class="grid grid-cols-3 sm:gap-5 mt-6 mx-5">
@@ -210,7 +214,10 @@
                                                                 <div class="flex justify-between">
                                                                     <div class="">
                                                                         <p class="font-bold">Meeting Room A</p>
-                                                                        <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-41 text-white text-sm w-auto">Closed</div>
+                                                                        <div class="flex">
+                                                                            <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-41 text-white text-sm w-auto">Closed</div>
+                                                                            <div class="ml-2 inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-44 text-white text-sm w-auto">Auto</div>
+                                                                        </div>
                                                                     </div>
                                                                     <div>
                                                                         <div class="dropdown">
@@ -243,7 +250,10 @@
                                                                 <div class="flex justify-between">
                                                                     <div class="">
                                                                         <p class="font-bold">Office Room Lt 1</p>
-                                                                        <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-47 text-white text-sm w-auto">Locked</div>
+                                                                        <div class="flex">
+                                                                            <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-47 text-white text-sm w-auto">Locked</div>
+                                                                            <div class="ml-2 inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-44 text-white text-sm w-auto">Auto</div>
+                                                                        </div>
                                                                     </div>
                                                                     <div>
                                                                         <div class="dropdown">
@@ -276,7 +286,10 @@
                                                                 <div class="flex justify-between">
                                                                     <div class="">
                                                                         <p class="font-bold">Office Room Lt 2</p>
-                                                                        <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-44 text-white text-sm w-auto">Open</div>
+                                                                        <div class="flex">
+                                                                            <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-44 text-white text-sm w-auto">Closed</div>
+                                                                            <div class="ml-2 inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-41 text-white text-sm w-auto">Manual</div>
+                                                                        </div>
                                                                     </div>
                                                                     <div>
                                                                         <div class="dropdown">
@@ -309,7 +322,10 @@
                                                                 <div class="flex justify-between">
                                                                     <div class="">
                                                                         <p class="font-bold">Meeting Room B</p>
-                                                                        <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-47 text-white text-sm w-auto">Locked</div>
+                                                                        <div class="flex">
+                                                                            <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-47 text-white text-sm w-auto">Locked</div>
+                                                                            <div class="ml-2 inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-41 text-white text-sm w-auto">Manual</div>
+                                                                        </div>
                                                                     </div>
                                                                     <div>
                                                                         <div class="dropdown">
@@ -342,7 +358,10 @@
                                                                 <div class="flex justify-between">
                                                                     <div class="">
                                                                         <p class="font-bold">Office Room Lt 3</p>
-                                                                        <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-41 text-white text-sm w-auto">Closed</div>
+                                                                        <div class="flex">
+                                                                            <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-41 text-white text-sm w-auto">Closed</div>
+                                                                            <div class="ml-2 inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-44 text-white text-sm w-auto">Auto</div>
+                                                                        </div>
                                                                     </div>
                                                                     <div>
                                                                         <div class="dropdown">
@@ -375,7 +394,10 @@
                                                                 <div class="flex justify-between">
                                                                     <div class="">
                                                                         <p class="font-bold">Ofiice Room Lt 4</p>
-                                                                        <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-44 text-white text-sm w-auto">Open</div>
+                                                                        <div class="flex">
+                                                                            <div class="inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-44 text-white text-sm w-auto">Open</div>
+                                                                            <div class="ml-2 inline-flex items-center justify-center px-2 py-1 font-bold leading-none rounded-full bg-theme-41 text-white text-sm w-auto">Manual</div>
+                                                                        </div>
                                                                     </div>
                                                                     <div>
                                                                         <div class="dropdown">
